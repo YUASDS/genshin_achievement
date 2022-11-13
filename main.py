@@ -1,9 +1,10 @@
 import os
 import time
 from pathlib import Path
+
+from pydantic import BaseModel
 from PIL import Image, ImageDraw, ImageFont
 from PIL.ImageFont import FreeTypeFont
-from pydantic import BaseModel
 
 star = (
     Image.open(Path(__file__).parent.joinpath("star.png"))
