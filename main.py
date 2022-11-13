@@ -44,6 +44,7 @@ def cut_text(
     chars_per_line: int,
 ):
     """将单行超过指定长度的文本切割成多行
+    https://github.com/Redlnn/signin-image-generator/blob/master/util.py
     Args:
         font (FreeTypeFont): 字体
         origin (str): 原始文本
